@@ -3,9 +3,9 @@ A website for a real estate agent (in German). All of the html elements are crea
 
 ## Project/Learning Goals
 - create a website for a real estate agent, that is both minimalist + modern but still looks conservative, professional and sets up the real estate agent as someone who you can rely on. 
-- use this website to learn Javascript modules and bundling them up with webpack
-- improve your DOM manipulation skills by leavin the html files empty and creating all of the content dynamically
-- make the design responsive and intuitive
+- use this project to learn Javascript modules and bundling them up with `webpack`
+- improve your DOM manipulation skills by leaving the HTML files as empty as possible and creating all of the content dynamically with Javascript
+- make the design responsive and intuitive, look into design layouts
 - learn to define a minimum viable product and stick with it (avoid feature creep)
 
 ## MVP specification (minimum viable product)
