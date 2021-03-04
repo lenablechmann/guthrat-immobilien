@@ -6,12 +6,13 @@ A website for a real estate agent (in German). All of the html elements are crea
 - use this website to learn Javascript modules and bundling them up with webpack
 - improve your DOM manipulation skills by leavin the html files empty and creating all of the content dynamically
 - make the design responsive and intuitive
+- learn to define a minimum viable product and stick with it (avoid feature creep)
 
-## Specification (MVP)
+## MVP specification (minimum viable product)
 - The website should have:
   1. Top nav bar with contact info and maybe a logo
-  1. Home with a bit of a sell pitch + nice photo of the agent
-  1. A menu from which you can access: "Immobilienangebote", "Verkauf", "Vermietung", "Kontakt"
+  1. Home with a bit of a sell pitch + nice photo of the agent, perhaps what people write about the agency and/or its certificates
+  1. A menu from which you can access: "Immobilienangebote", "Verkauf", "Kontakt"
   2. Bottom nav bar with "Impressum", "AGB", "Datenschutz" 
 
 ## Project Roadmap
