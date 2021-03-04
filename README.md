@@ -2,7 +2,7 @@
 A website for a real estate agent (in German). All of the `HTML` elements are created dynamically with `Javascript`. JS is separated into files and bundled up with `webpack` before deployment.
 
 ## Project/Learning Goals
-- create a website for a real estate agent, that is both minimalist + modern but still looks conservative, professional and sets up the real estate agent as someone who you can rely on. 
+- create a website for a real estate agent, that is both minimalistic/easy to navigate + modern but still looks conservative, professional and sets up the real estate agent as someone who you can rely on. 
 - use this project to learn `Javascript modules` and bundling them up with `webpack`
 - improve your `DOM` manipulation skills by leaving the `HTML` files as empty as possible and creating all of the content dynamically with `Javascript`
 - make the design responsive and intuitive, look into design layouts
@@ -21,7 +21,8 @@ A website for a real estate agent (in German). All of the `HTML` elements are cr
 
 ## Project Roadmap
 - [x] set up all the directories, gitignore and config files necessary for webpack
-- [ ] research the MVP for real estate agents and come up with a wireframe
+- [x] research the MVP for real estate agents and come up with a wireframe: 
+  ![Wireframe](images/wireframe.png)
 - [ ] create a dummy page + basic css layout and connect a few modules to each other (code infrastructure setup)
 - [ ] create a design for the page in Figma
 - [ ] create a static prototype page with multiple html files
@@ -30,4 +31,4 @@ A website for a real estate agent (in German). All of the `HTML` elements are cr
 - [ ] transfer all the html tags into the js files
 
 ## Learning experiences
-- tbd
+- Wireframes are important for the user experience flow and give you a good high level overview over the project. What is necessary, and where you can cut the fat. What is intuitive, and where the user will have to search. They are pretty good if you want to avoid getting caught up in the details.
