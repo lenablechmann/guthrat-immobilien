@@ -12,7 +12,7 @@ A website for a real estate agent (in German). All of the `HTML` elements are cr
 1. Top nav bar with contact info and maybe a logo
 1. Home with a bit of a sell pitch + nice photo of the agent, perhaps what people write about the agency and/or its certificates
 1. A menu from which you can access:  
-  - "Home" Who is the real estate agent, what does he promise
+  - "Home" Who is the real estate agent, what does he promise. Home should just be the Logo of the agent.
   - "Immobilienangebote" cards with house photos + descriptions
   -  "Verkauf" description of the step by step how you sell real estate via this agent 
   -  "Kontakt" a contact form
@@ -23,10 +23,10 @@ A website for a real estate agent (in German). All of the `HTML` elements are cr
 - [x] set up all the directories, gitignore and config files necessary for webpack
 - [x] research the MVP for real estate agents and come up with a wireframe: 
   ![Wireframe](images/wireframe.png)
-- [ ] create a dummy page + basic css layout and connect a few modules to each other (code infrastructure setup)
 - [ ] create a design for the page in Figma
 - [ ] create a static prototype page with multiple html files
-- [ ] tweak the css until it matches the design as well as possible
+- [ ] tweak the css until it matches the design as well as possible, if something isn't possible atm, admit defeat and try to incorporate an acceptable substitute + learn from experience
+- [ ] create a dummy page + basic css layout and connect a few modules to each other (code infrastructure setup)
 - [ ] plan out/ pseudo code the modules
 - [ ] transfer all the html tags into the js files
 

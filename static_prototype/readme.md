@@ -1,0 +1,2 @@
+First I want to create a static prototype using pure css and html, before JS gets involved.
+`index.html` will be equivalent to the home page, featuring the real estate agent photo + some house, and about section, the real estate reel and top + bottom navs.
