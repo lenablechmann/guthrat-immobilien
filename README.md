@@ -23,7 +23,7 @@ A website for a real estate agent (in German). All of the `HTML` elements are cr
 - [x] set up all the directories, gitignore and config files necessary for webpack
 - [x] research the MVP for real estate agents and come up with a wireframe: 
   ![Wireframe](images/wireframe.png)
-- [ ] create a design for the page in Figma
+- [ ] create a design for the page in Figma ![fist pass](images/first_layout_figma.png)
 - [ ] create a static prototype page with multiple html files
 - [ ] tweak the css until it matches the design as well as possible, if something isn't possible atm, admit defeat and try to incorporate an acceptable substitute + learn from experience
 - [ ] create a dummy page + basic css layout and connect a few modules to each other (code infrastructure setup)
