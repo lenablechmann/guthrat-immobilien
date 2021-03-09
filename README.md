@@ -25,8 +25,8 @@ A website for a real estate agent (in German). All of the `HTML` elements are cr
   ![Wireframe](images/wireframe.png)
 - [x] create a desktop design for the page in Figma ![desktop layout made in figma](images/layoutDesktop.png)
 - [x] create a mobile design for the page in figma![mobile layout made in figma](images/mobileLayoutFigma.png)
-- [x] create a design (mobile and desktop with Figma) for real estate listings page ![mobile layout made in figma](images/immobilienkauf_figma.png)
-- [ ] create a design (mobile and desktop with Figma) for the buyers page 
+- [x] create a design (mobile and desktop with Figma) for real estate listings page ![listings layout made in figma](images/immobilienkauf_figma.png)
+- [x] create a design (mobile and desktop with Figma) for the buyers page ![sale layout made in figma](images/verkaufen-layout-figma.png)
 - [ ] create a design (mobile and desktop with Figma) with contact forms
 - [ ] create a static prototype page with multiple html files
 - [ ] tweak the css until it matches the design as well as possible, if something isn't possible atm, admit defeat and try to incorporate an acceptable substitute + learn from experience
