@@ -24,10 +24,10 @@ A website for a real estate agent (in German). All of the `HTML` elements are cr
 - [x] research the MVP for real estate agents and come up with a wireframe: 
   ![Wireframe](images/wireframe.png)
 - [x] create a desktop design for the page in Figma ![desktop layout made in figma](images/layoutDesktop.png)
-- [x] create a mobile design for the page in figma![mobile layout made in figma](images/mobileLayoutFigma.png)
+- [x] create a mobile design for the landing page in figma![mobile layout made in figma](images/mobileLayoutFigma.png)
 - [x] create a design (mobile and desktop with Figma) for real estate listings page ![listings layout made in figma](images/immobilienkauf_figma.png)
 - [x] create a design (mobile and desktop with Figma) for the buyers page ![sale layout made in figma](images/verkaufen-layout-figma.png)
-- [ ] create a design (mobile and desktop with Figma) with contact forms
+- [x] create a design (mobile and desktop with Figma) with contact forms ![contact page layout made in figma](images/kontakt_figma_layout.png)
 - [ ] create a static prototype page with multiple html files
 - [ ] tweak the css until it matches the design as well as possible, if something isn't possible atm, admit defeat and try to incorporate an acceptable substitute + learn from experience
 - [ ] create a dummy page + basic css layout and connect a few modules to each other (code infrastructure setup)
