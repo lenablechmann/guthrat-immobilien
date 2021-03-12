@@ -1,3 +1,22 @@
+/* ----- Contents of this file: -----
+ *  |basic layout| 
+ *  |colors and typography| 
+ */
+
+/* Avoids counter-intuitive box size changes as per 
+   https://css-tricks.com/box-sizing/ */
+
+html {
+    box-sizing: border-box;
+    background-color: #F7F8F6;
+    height: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*  |basic layout| */
 body {
     display: -webkit-flex;
     display: flex;
@@ -5,26 +24,4 @@ body {
     flex-flow: row wrap;
   }
   
-  .top-nav, .agent-img, .about, .showcase-reel, .bottom-nav {
-    width: 100%;
-  }
-  
-  @media (min-width: 600px) {
-    .top-nav {
-      width: 25%;
-    }
-  
-    .agent-img {
-      width: 75%;
-    }
-  
-  }
-  
-  @media (min-width: 800px) {
-    body {
-      width: 800px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
   
