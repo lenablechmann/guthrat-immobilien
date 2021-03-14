@@ -27,21 +27,29 @@ body {
   .top-nav {
     display: flex;
     width: 100%;
+    height: auto;
     flex-direction: column;
     align-items: flex-end;
-    background-color: rgb(238, 147, 29);
+    }
+
+    .tel-mail-top {
+        padding: 0.5em 1em 0.5em 1em;
     }
     
     .menu {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: flex-end;
-    background-color: rgb(238, 29, 210);
-
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 1em 0 1em 0;
     }
 
-
-  
-  
  /*  |colors and typography| */
+
+ body {
+    font-family: 'Poppins', sans-serif;
+ }
+    .menu {
+        background-color: #4F414F;
+        color: #F7F8F6;
+    }
