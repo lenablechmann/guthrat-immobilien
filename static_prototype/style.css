@@ -33,7 +33,7 @@ body {
     }
 
     .tel-mail-top {
-        padding: 0.5em 1em 0.5em 1em;
+        padding: 0.5em 1em .5em 1em;
     }
     
     .menu {
@@ -41,7 +41,11 @@ body {
         width: 100%;
         flex-direction: row;
         justify-content: flex-end;
-        padding: 1em 0 1em 0;
+        padding: 1em 0.5em 1em 0.5em;
+    }
+    
+    .menu * {
+        padding: 0em 1em 0em 1em;
     }
 
  /*  |colors and typography| */
