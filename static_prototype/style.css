@@ -85,10 +85,10 @@ body {
      --clr-dark: #4F414F;
      --clr-accent: #DBA2AD;
 
-     --font-all: 'Poppins', sans-serif;
+     --font-all: "Poppins", "Helvetica", sans-serif;
  }
 
- body {
+ .document {
     font-family: var(--font-all);
  }
     .menu {
