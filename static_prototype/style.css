@@ -20,6 +20,7 @@ html {
 body {
     display: -webkit-flex;
     display: flex;
+    width: 100%;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
   }
@@ -50,6 +51,21 @@ body {
 
     img {
         height: auto;
+    }
+    .about {
+        width: 100%;
+    }
+    
+    .section-header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 1.2em 0em 1.2em 0em;
+    }
+
+    /* TODO CSS grid and media queries should make image disappear*/
+    .about-container {
+        display:grid;
     }
 
     @media screen and (max-width: 600px) {
@@ -90,8 +106,17 @@ body {
 
  .document {
     font-family: var(--font-all);
+    line-height: 1.7em;
  }
-    .menu {
-        background-color: var(--clr-dark);
-        color: var(--clr-light);
-    }
+
+.menu {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+}
+
+.section-header{
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    font-size: 1.25em;
+    font-weight: 500;
+}

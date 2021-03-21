@@ -36,3 +36,4 @@ A website for a real estate agent (in German). All of the `HTML` elements are cr
 
 ## Learning experiences
 - Wireframes are important for the user experience flow and give you a good high level overview over the project. What is necessary, and where you can cut the fat. You can determine, what is intuitive and where the user might have some troubles. They are pretty good if you want to avoid getting caught up in the details.
+- learned to use CSS custom properties (also called css variables sometimes). They are supported by most browsers as of now, but would have to avoid them if I had users that use IE.
