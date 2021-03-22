@@ -33,11 +33,11 @@ body {
     align-items: flex-end;
     }
 
-    .tel-mail-top {
+    .top-nav--tel-mail {
         padding: 0.5em 1em .5em 1em;
     }
     
-    .menu {
+    .top-nav--menu {
         display: flex;
         width: 100%;
         flex-direction: row;
@@ -45,7 +45,7 @@ body {
         padding: 1em 0.5em 1em 0.5em;
     }
     
-    .menu * {
+    .top-nav--menu * {
         padding: 0em 1em 0em 1em;
     }
 
@@ -109,7 +109,7 @@ body {
     line-height: 1.7em;
  }
 
-.menu {
+.top-nav--menu {
     background-color: var(--clr-dark);
     color: var(--clr-light);
 }
