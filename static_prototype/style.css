@@ -34,7 +34,7 @@ body {
     }
 
     .top-nav--tel-mail {
-        padding: 0.5em 1em .5em 1em;
+        padding: 0.5em 1em;
     }
     
     .top-nav--menu {
@@ -42,16 +42,25 @@ body {
         width: 100%;
         flex-direction: row;
         justify-content: flex-end;
-        padding: 1em 0.5em 1em 0.5em;
+        padding: 1em 0.5em;
     }
     
     .top-nav--menu * {
-        padding: 0em 1em 0em 1em;
+        padding: 0em 1em;
     }
 
     img {
         height: auto;
     }
+
+    .header-picture {
+        background-color: rgb(106, 255, 77);
+        padding: 0;
+        margin: 0;
+    }
+        .landing-img {
+            object-fit: cover;
+        }
     .about {
         width: 100%;
     }
@@ -60,7 +69,7 @@ body {
         display: flex;
         justify-content: center;
         width: 100%;
-        padding: 1.2em 0em 1.2em 0em;
+        padding: 1.2em 0em;
     }
 
     /* TODO CSS grid and media queries should make image disappear*/
