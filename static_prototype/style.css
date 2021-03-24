@@ -51,16 +51,9 @@ body {
 
     img {
         height: auto;
+        /* gets rid of white space picture tag*/
+        display: block;
     }
-
-    .header-picture {
-        background-color: rgb(106, 255, 77);
-        padding: 0;
-        margin: 0;
-    }
-        .landing-img {
-            object-fit: cover;
-        }
     .about {
         width: 100%;
     }
@@ -71,6 +64,19 @@ body {
         width: 100%;
         padding: 1.2em 0em;
     }
+        .about--container {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: auto;
+            grid-template-areas: "article agentpic";
+        }
+
+        .about--container-copywriting {
+            grid-area: article;
+        }
+        .about--container-agent-photo {
+            grid-area: agentpic;
+        }
 
     /* TODO CSS grid and media queries should make image disappear*/
     .about-container {
