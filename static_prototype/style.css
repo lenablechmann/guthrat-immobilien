@@ -64,9 +64,11 @@ body {
         width: 100%;
         padding: 1.2em 0em;
     }
+
+    /* TODO CSS grid and media queries should make image disappear*/
         .about--container {
             display: grid;
-            grid-template-columns: 50% 50%;
+            grid-template-columns: 70% 30%;
             grid-template-rows: auto;
             grid-template-areas: "article agentpic";
         }
@@ -90,10 +92,23 @@ body {
             padding: 1em 0;
         }
 
-    /* TODO CSS grid and media queries should make image disappear*/
-    .about-container {
-        display:grid;
-    }
+        .about--container-agent-photo {
+            border-radius: 15px;
+            margin: 1.5em 1em;
+            display: flex;
+            justify-self: center;
+        }
+        
+        .about--container-copywriting {
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            margin: 2.5em 0;
+        }
+        .copywriting--text {
+            margin: 0.5em;
+            padding: 0em 2em;
+        }
 
     @media screen and (max-width: 600px) {
         img {
@@ -101,6 +116,13 @@ body {
         }
         .landing-img {
             width: 100%;
+        }
+        .about--container {
+            /*Makes agent picture disappear on mobile*/
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 100%;
+            grid-template-areas: "article";
         }
     }
     
@@ -111,6 +133,13 @@ body {
         .landing-img {
             width: 100%;
         }
+        .about--container {
+            /*Makes agent picture disappear on tablets*/
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 100%;
+            grid-template-areas: "article";
+        }
     }
     @media screen and (min-width: 1201px) {
         img {
@@ -118,6 +147,16 @@ body {
         }
         .landing-img {
             width: 100%;
+        }
+        .about--container-copywriting {
+            display: flex;
+            flex-flow: column wrap;
+            align-content: flex-end;
+            margin: 2.5em;
+            font-size: 1.2em;
+        }
+        .about--container-agent-photo {
+            justify-self: flex-start;
         }
     }
 
@@ -146,4 +185,9 @@ body {
     color: var(--clr-light);
     font-size: 1.25em;
     font-weight: 500;
+}
+.copywriting--text {
+    color: var(--clr-dark);
+    line-height: 2em;
+    text-align: center;
 }
