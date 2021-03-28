@@ -105,30 +105,31 @@ body {
             margin: 0.5em;
             padding: 0em 2em;
         }
+        .showcase-reel {
+            width: 100%;
+            height: auto;
+        }
 
         .showcase-reel--gallery {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            grid-gap: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-gap: 2rem;
             justify-items: center;
-            margin: 0;
-            padding: 0;
+            padding: 3rem 1rem;
         }
             .gallery--frame {
-                padding: .5rem;
-                font-size: 1.2rem;
-                text-align: center;
-                background-color: #333;
-                color: #d9d9d9;
+                display: flex;
+                justify-content: center;
             }
             .gallery--photo {
                 max-width: 100%;
                 height: auto;
                 object-fit: cover;
+                border-radius: 15px;
                 transition: opacity 0.25s ease-in-out;
             }
             .gallery--photo:hover {
-                opacity: 0.8;
+                opacity: 0.85;
             }
 
     @media screen and (max-width: 600px) {
