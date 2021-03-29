@@ -49,6 +49,10 @@ body {
         padding: 0em 1em;
     }
 
+    .menu--kaufen {
+        margin-left:auto;
+    }
+
     img {
         height: auto;
         /* gets rid of white space picture tag*/
@@ -130,6 +134,8 @@ body {
             }
             .gallery--photo:hover {
                 opacity: 0.85;
+                border: 1px solid var(--clr-accent);
+                box-shadow: 3px 3px  var(--clr-accent);
             }
 
     @media screen and (max-width: 600px) {
@@ -206,6 +212,10 @@ body {
     background-color: var(--clr-dark);
     color: var(--clr-light);
 }
+    .menu--logo {
+        font-size: 1.2em;
+        font-weight: 500;
+    }
 
 .section-header{
     background-color: var(--clr-dark);
