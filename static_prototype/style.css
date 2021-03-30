@@ -33,9 +33,19 @@ body {
     align-items: flex-end;
     }
 
-    .top-nav--tel-mail {
+    .top-nav--upper-info {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
         padding: 0.5em 1em;
+        width: 100%;
     }
+        .upper-info--sale-pitch {
+            padding: 0 1em;
+        }
+        .upper-info--tel {
+            padding: 0 1em;
+        }
     
     .top-nav--menu {
         display: flex;
@@ -205,6 +215,7 @@ body {
 
  .document {
     font-family: var(--font-all);
+    color: var(--clr-dark);
     line-height: 1.7em;
  }
 
