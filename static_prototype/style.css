@@ -147,6 +147,11 @@ body {
                 border: 1px solid var(--clr-accent);
                 box-shadow: 3px 3px  var(--clr-accent);
             }
+        .bottom-nav {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        }
 
     @media screen and (max-width: 600px) {
         img {
