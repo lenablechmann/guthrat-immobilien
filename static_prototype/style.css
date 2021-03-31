@@ -171,6 +171,15 @@ body {
         img {
             width: 100vw;
         }
+        .top-nav--upper-info {
+            display: flex;
+            justify-content: center;
+        }
+        .upper-info--sale-pitch {
+            visibility: hidden;
+            width: 1px;
+            height: 1px;
+        }
         .landing-img {
             width: 100%;
         }
@@ -190,6 +199,16 @@ body {
             display: flex;
             flex-flow: column wrap;
         }
+            .bottom-nav > * {
+                margin: 1em;
+            }
+
+            .bottom-nav--name {
+                padding-left: 0;
+            }
+            .bottom-nav--link-list {
+                padding-right: 0;
+            }
     }
     
     @media screen and (min-width: 601px) and (max-width: 1200px) {
