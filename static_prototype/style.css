@@ -300,9 +300,11 @@ body {
 
     a:hover{
         text-decoration: underline;
+        text-underline-offset: 0.2em;
         text-decoration-color: var(--clr-accent);
     }
     a:focus:active{
         text-decoration: underline;
+        text-underline-offset: 0.2em;
         text-decoration-color: var(--clr-accent);
     }
