@@ -1,6 +1,12 @@
 /* ----- Contents of this file: -----
- *  |basic layout| 
- *  |colors and typography| 
+ *  |basic layout - landing| 
+ *  |colors and typography - landing| 
+ *  |basic layout - immobilienkauf| 
+ *  |colors and typography - immobilienkauf| 
+ *  |basic layout - verkauf| 
+ *  |colors and typography - verkauf| 
+ *  |basic layout - kontakt| 
+ *  |colors and typography - kontakt| 
  */
 
 /* Avoids counter-intuitive box size changes as per 
@@ -16,7 +22,7 @@ html {
     box-sizing: inherit;
 }
 
-/*  |basic layout| */
+/*  |basic layout - landing| */
 body {
     display: -webkit-flex;
     display: flex;
@@ -245,7 +251,7 @@ body {
         }
     }
 
- /*  |colors and typography| */
+ /*  |colors and typography - landing| */
  /* Setting variables for colors and fonts (easier to change)*/
  :root {
      --clr-light: #F7F8F6;
@@ -308,3 +314,9 @@ body {
         text-underline-offset: 0.2em;
         text-decoration-color: var(--clr-accent);
     }
+ /*  |basic layout - immobilienkauf| */
+ /*  |colors and typography - immobilienkauf| */
+ /*  |basic layout - verkauf| */ 
+ /*  |colors and typography - verkauf| */
+ /*  |basic layout - kontakt| */ 
+ /*  |colors and typography - kontakt| */
