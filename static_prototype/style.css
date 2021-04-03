@@ -315,6 +315,37 @@ body {
         text-decoration-color: var(--clr-accent);
     }
  /*  |basic layout - immobilienkauf| */
+ .immobilienkauf {
+     display: flex;
+     width: 100vw;
+ }
+ 
+ .immobilienkauf-card {
+     display: grid;
+     grid-template-columns: 25% 25% 50%;
+     grid-template-rows: 30% 70%;
+     grid-template-areas: "houseimage housetitle housetitle"
+                          "houseimage facts pitch";
+     background-color: beige;
+     width: 100%;
+     margin: 1.5em 1em;
+ }
+    .immobilienkauf-card--img {
+        grid-area: houseimage;
+        border: 1px solid blue;
+    }
+    .immobilienkauf-card--title {
+        grid-area: housetitle;
+        border: 1px solid red;
+    }
+    .immobilienkauf-card--daten {
+        grid-area: facts;
+        border: 1px solid violet;
+    }
+    .immobilienkauf-card--sale-pitch {
+        grid-area: pitch;
+        border: 1px solid green;
+    }
  /*  |colors and typography - immobilienkauf| */
  /*  |basic layout - verkauf| */ 
  /*  |colors and typography - verkauf| */
