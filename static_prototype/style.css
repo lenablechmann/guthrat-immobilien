@@ -328,6 +328,7 @@ body {
                           "houseimage facts pitch";
      background-color: beige;
      width: 100%;
+     height: auto;
      margin: 1.5em 1em;
  }
     .immobilienkauf-card--img {
@@ -346,6 +347,17 @@ body {
         grid-area: pitch;
         border: 1px solid green;
     }
+    @media screen and (max-width: 600px) {
+    .immobilienkauf-card {
+        display: flex;
+        flex-flow: column wrap;
+        width: 90%;
+        margin: 1em;
+        }
+    .immobilienkauf-card > * {
+        overflow: hidden;
+        width: 100%;
+        }
  /*  |colors and typography - immobilienkauf| */
  /*  |basic layout - verkauf| */ 
  /*  |colors and typography - verkauf| */
