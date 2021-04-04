@@ -322,7 +322,7 @@ body {
  
  .immobilienkauf-card {
      display: grid;
-     grid-template-columns: 25% 25% 50%;
+     grid-template-columns: 20% 30% 50%;
      grid-template-rows: 30% 70%;
      grid-template-areas: "houseimage housetitle housetitle"
                           "houseimage facts pitch";
@@ -333,6 +333,7 @@ body {
  }
     .immobilienkauf-card--img {
         grid-area: houseimage;
+        width: 100%;
         border: 1px solid blue;
     }
     .immobilienkauf-card--title {
