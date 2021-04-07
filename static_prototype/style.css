@@ -439,6 +439,26 @@ body {
         padding: 1em;
     }
  /*  |basic layout - verkauf| */ 
+
+ .verkauf > .section-header {
+     margin: 0.7em 0;
+ }
+
+ .verkauf--copywriting {
+     margin: 1em 2em;
+ }
+
+ .verkauf-schritte--container {
+     display: flex;
+     flex-flow: row wrap;
+ }
+    .verkauf-schritte--card {
+        border: 1px solid blue;
+    }
+
+    .verkauf-schritte--arrow-container {
+        border: 3px solid red;
+    }
  /*  |colors and typography - verkauf| */
  /*  |basic layout - kontakt| */ 
  /*  |colors and typography - kontakt| */
