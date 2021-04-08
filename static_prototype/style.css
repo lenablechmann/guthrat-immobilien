@@ -157,7 +157,6 @@ body {
             display: flex;
             flex-flow: row wrap;
             justify-content: space-between;
-            position: fixed;
             bottom: 0;
             width: 100%;
         }
@@ -443,35 +442,72 @@ body {
         padding: 1em;
     }
  /*  |basic layout - verkauf| */ 
+ .verkauf {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100vw;
+ }
 
  .verkauf > .section-header {
      margin: 0.7em 0;
  }
 
  .verkauf--copywriting {
+     max-width: 80vw;
      margin: 1em 2em;
  }
 
  .verkauf-schritte--container {
      display: flex;
      flex-direction: row;
-     justify-content: space-between;
+     justify-content: center;
      margin: 1em 3em;
+     width: 100%;
+     height: auto;
+
  }
     .verkauf-schritte--card {
-        width: 230px;
-        border: 1px solid blue;
+        width: 240px;
+        max-width: 240px;
+        background-color: var(--clr-card-dark);
+        border: 1px solid var(--clr-accent);
+        border-radius: 15px;
+        padding: 1.3em 0.8em;
+        margin: 0 2em;
     }
+        .verkauf-schritte--card-title {
+            padding: 1em;
+        }
+        .verkauf-schritte--card-description {
+            padding: 1em;
+            border-radius: 15px;
+            background-color: var(--clr-light);
+        }
 
     .verkauf-schritte--arrow-container {
-        width: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
         border: 3px solid red;
+    }
+    .verkauf-schritte--arrow {
+        width: 100px;
+        height: 4px;
+        background-color: var(--clr-dark);
     }
 
     @media screen and (max-width: 1100px) {
+        .verkauf--copywriting {
+            max-width: 700px;
+            margin: 0;
+        }
         .verkauf-schritte--container {
             display: flex;
             flex-flow: column wrap;
+            align-items: center;
         }
         .verkauf-schritte--arrow-container {
             visibility: hidden;
