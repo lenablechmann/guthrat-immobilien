@@ -465,8 +465,8 @@ body {
      margin: 1em 3em 2.5em 3em;
      width: 100%;
      height: auto;
-
  }
+
     .verkauf-schritte--card {
         width: 17rem;
         max-width: 17rem;
@@ -480,18 +480,14 @@ body {
         .verkauf-schritte--card-description {
             padding: 1em;
             border-radius: 15px;
+            min-height: 10rem;
         }
 
-    .verkauf-schritte--arrow-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: fit-content;
-    }
     .verkauf-schritte--arrow {
-        width: 100px;
-        height: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.1em;
     }
 
     @media screen and (max-width: 1100px) {
@@ -502,10 +498,16 @@ body {
         .verkauf-schritte--container {
             display: flex;
             flex-flow: column wrap;
-            align-items: center;
+            align-content: center;
+            justify-content: center;
         }
-        .verkauf-schritte--arrow-container {
+            .verkauf-schritte--card {
+                margin: 1em 0em;
+            }
+        .verkauf-schritte--arrow {
             visibility: hidden;
+            width: 1px;
+            height: 1px;
         }
     }
  /*  |colors and typography - verkauf| */
@@ -523,11 +525,10 @@ body {
             text-align: center;
         }
 
-    .verkauf-schritte--arrow-container {
-        border: 3px solid red;
-    }
     .verkauf-schritte--arrow {
-        background-color: var(--clr-dark);
+        font-size: 3.5em;
+        font-weight: 900;
+        color: var(--clr-accent);
     }
 
 
