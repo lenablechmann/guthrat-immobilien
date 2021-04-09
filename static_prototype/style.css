@@ -454,7 +454,7 @@ body {
  }
 
  .verkauf--copywriting {
-     max-width: 80vw;
+     max-width: 70rem;
      margin: 1em 2em;
  }
 
@@ -462,27 +462,24 @@ body {
      display: flex;
      flex-direction: row;
      justify-content: center;
-     margin: 1em 3em;
+     margin: 1em 3em 2.5em 3em;
      width: 100%;
      height: auto;
 
  }
     .verkauf-schritte--card {
-        width: 240px;
-        max-width: 240px;
-        background-color: var(--clr-card-dark);
-        border: 1px solid var(--clr-accent);
+        width: 17rem;
+        max-width: 17rem;
         border-radius: 15px;
         padding: 1.3em 0.8em;
         margin: 0 2em;
     }
         .verkauf-schritte--card-title {
-            padding: 1em;
+            padding: 0 1em 0.8em 1em;
         }
         .verkauf-schritte--card-description {
             padding: 1em;
             border-radius: 15px;
-            background-color: var(--clr-light);
         }
 
     .verkauf-schritte--arrow-container {
@@ -491,12 +488,10 @@ body {
         justify-content: center;
         align-items: center;
         width: fit-content;
-        border: 3px solid red;
     }
     .verkauf-schritte--arrow {
         width: 100px;
         height: 4px;
-        background-color: var(--clr-dark);
     }
 
     @media screen and (max-width: 1100px) {
@@ -514,5 +509,27 @@ body {
         }
     }
  /*  |colors and typography - verkauf| */
+    .verkauf-schritte--card {
+        background-color: var(--clr-card-dark);
+        border: 1px solid var(--clr-accent);
+    }
+        .verkauf-schritte--card-title {
+            font-size: 1.2em;
+            font-weight: 500;
+            text-align: center;
+        }
+        .verkauf-schritte--card-description {
+            background-color: var(--clr-light);
+            text-align: center;
+        }
+
+    .verkauf-schritte--arrow-container {
+        border: 3px solid red;
+    }
+    .verkauf-schritte--arrow {
+        background-color: var(--clr-dark);
+    }
+
+
  /*  |basic layout - kontakt| */ 
  /*  |colors and typography - kontakt| */
