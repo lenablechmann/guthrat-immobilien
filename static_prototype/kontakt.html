@@ -41,15 +41,23 @@
         <div class="section-header">Kontakt</div>
         <section class="kontakt-form--container">
             <form class="kontakt-form">
-                <input type="text" class="kontakt-form--email" name="email">
-                <label for="email">E-Mail-Addresse*</label><br>
-                <input type="text" class="kontakt-form--phone" name="phone">
-                <label for="phone">Telefonnummer</label><br>
-                <input type="text" class="kontakt-form--full-name" name="fullname">
-                <label for="fullname">Vollständiger Name*</label><br>
-                <input type="text" class="kontakt-form--message" name="message">
-                <label for="message">Nachricht</label><br>
-                <input type="submit" value="Abschicken">
+                <div class="kontakt-form--email">
+                    <input type="text" name="email">
+                    <label for="email">E-Mail-Addresse</label><br>
+                </div>
+                <div class="kontakt-form--phone">
+                    <input type="text" name="phone">
+                    <label for="phone">Telefonnummer (optional)</label><br>
+                </div>
+                <div class="kontakt-form--fullname">
+                    <input type="text" name="fullname">
+                    <label for="fullname">Name</label><br>
+                </div>
+                <div class="kontakt-form--message">
+                    <input type="text" class="kontakt-form--message" name="message">
+                    <label for="message">Nachricht</label><br>
+                </div>
+                <input type="submit" class="kontakt-form--button" value="Abschicken">
             </form>
         </section>
         <section class="kontakt-info--container">

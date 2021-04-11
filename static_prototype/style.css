@@ -550,9 +550,23 @@ body {
         }
             .kontakt-form {
                 display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
             }
-            .kontakt-form > * {
-                flex: 1;
+            .kontakt-form--email {
+                width: 49%;
+            }
+            .kontakt-form--phone {
+                width: 49%;
+            }
+            .kontakt-form--fullname {
+                width: 100%;
+            }
+            .kontakt-form--message {
+                width: 100%;
+            }
+            .kontakt-form--button {
+                width: 100%;
             }
 
         .kontakt-info--container {
