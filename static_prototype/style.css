@@ -543,7 +543,6 @@ body {
         .kontakt-form--container {
             width: 60vw;
             max-width: 60vw;
-            border: 1px solid red;
             max-width: 70rem;
             margin: 1em;
             margin-bottom: 3em;
@@ -583,20 +582,31 @@ body {
             }
 
         .kontakt-info--container {
-            width: 40vw;
-            max-width: 40vw;
-            border: 1px solid blue;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            width: 20vw;
+            max-width: 20vw;
             max-width: 30rem;
             margin: 1em;
             margin-bottom: 3em;
         }
-    @media screen and (max-width: 1100px) {
-        .kontakt-form--container {
-            border: 1px solid red;
+        .kontakt-info--email-phone {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2em 0 1em 0;
         }
-
+        .kontakt-info--address {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1em 0;
+        }
+    @media screen and (max-width: 1100px) {
         .kontakt-info--container {
-            border: 1px solid blue;
             visibility: hidden;
             width: 0;
             height: 0;
@@ -615,3 +625,8 @@ body {
             }
     }
  /*  |colors and typography - kontakt| */
+        .kontakt-form--container {
+            background-color: var(--clr-card-dark);
+            border: 2px solid var(--clr-dark);
+            border-radius: 15px;
+        }
