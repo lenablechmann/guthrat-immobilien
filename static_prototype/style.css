@@ -285,7 +285,7 @@ body {
  .document {
     font-family: var(--font-all);
     color: var(--clr-dark);
-    line-height: 1.7em;
+    line-height: 1.6em;
  }
 
 .top-nav--menu {
@@ -307,7 +307,6 @@ body {
 .copywriting--text {
     color: var(--clr-dark);
     line-height: 2em;
-    text-align: center;
 }
 
 .bottom-nav {
