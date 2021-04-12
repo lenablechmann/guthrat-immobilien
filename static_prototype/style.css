@@ -546,26 +546,40 @@ body {
             border: 1px solid red;
             max-width: 70rem;
             margin: 1em;
+            margin-bottom: 3em;
         }
             .kontakt-form {
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
             }
             .kontakt-form--email {
-                width: 49%;
+                width: 50%;
+                display: flex;
+                flex-flow: column;
+                padding: 1.4em 1.4em 1em 1.4em;
             }
             .kontakt-form--phone {
-                width: 49%;
+                width: 50%;
+                display: flex;
+                flex-flow: column;
+                padding: 1.4em 1.4em 1em 1.4em;
             }
             .kontakt-form--fullname {
                 width: 100%;
+                display: flex;
+                flex-flow: column;
+                padding: 0.4em 1.4em 1em 1.4em;
             }
             .kontakt-form--message {
                 width: 100%;
+                display: flex;
+                flex-flow: column;
+                padding: 0.4em 1.4em 0.8em 1.4em;
             }
             .kontakt-form--button {
-                width: 100%;
+                padding: 0.5em;
+                margin-bottom: 1.5em;
             }
 
         .kontakt-info--container {
@@ -574,14 +588,9 @@ body {
             border: 1px solid blue;
             max-width: 30rem;
             margin: 1em;
+            margin-bottom: 3em;
         }
     @media screen and (max-width: 1100px) {
-        .kontakt {
-            display: flex;
-            flex-flow: column wrap;
-            justify-items: center;
-            align-items: center;
-        }
         .kontakt-form--container {
             border: 1px solid red;
         }
@@ -595,6 +604,14 @@ body {
         .kontakt-form {
             display: flex;
             flex-direction: column;
+            align-items: center;
         }
+        .kontakt-form > *{
+            width: 100%;
+            padding: 0.7em;
+        }
+            .kontakt-form--button {
+                width: auto;
+            }
     }
  /*  |colors and typography - kontakt| */
