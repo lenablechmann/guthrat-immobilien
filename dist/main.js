@@ -16,17 +16,17 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _moduleTest__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./moduleTest */ \"./src/moduleTest.js\");\n\n\nfunction component() {\n    const element = document.createElement('div');\n  \n    // Lodash, currently included via a script, is required for this line to work\n    element.innerHTML = (0,_moduleTest__WEBPACK_IMPORTED_MODULE_0__.default)(\"Lewitt\");\n  \n    return element;\n  }\n  \n  document.body.appendChild(component());\n\n//# sourceURL=webpack://guthrat-immobilien/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_moduleTest__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/moduleTest */ \"./src/modules/moduleTest.js\");\n\n\nfunction component() {\n    const element = document.createElement('div');\n  \n    element.innerHTML = (0,_modules_moduleTest__WEBPACK_IMPORTED_MODULE_0__.default)(\"Lewitt\");\n  \n    return element;\n  }\n  \n  document.body.appendChild(component());\n\n  // TODO write initial page load function from landing.js\n\n//# sourceURL=webpack://guthrat-immobilien/./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/moduleTest.js":
-/*!***************************!*\
-  !*** ./src/moduleTest.js ***!
-  \***************************/
+/***/ "./src/modules/moduleTest.js":
+/*!***********************************!*\
+  !*** ./src/modules/moduleTest.js ***!
+  \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst myName = (name) => 'Hi! My name is ' + name;\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (myName);\n\n\n//# sourceURL=webpack://guthrat-immobilien/./src/moduleTest.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst myName = (name) => 'Hi! My name is ' + name;\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (myName);\n\n\n//# sourceURL=webpack://guthrat-immobilien/./src/modules/moduleTest.js?");
 
 /***/ })
 

@@ -1,9 +1,13 @@
-import moduleTest from "./moduleTest"
+import moduleTest from "./modules/moduleTest"
+
+// this file will load up the initial page, 
+// and will have the onclick listeners for the 
+// "Kontakt" "Verkauf" "Kauf" buttons, which then
+// will call the modules with the same names
 
 function component() {
     const element = document.createElement('div');
   
-    // Lodash, currently included via a script, is required for this line to work
     element.innerHTML = moduleTest("Lewitt");
   
     return element;
