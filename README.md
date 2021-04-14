@@ -1,5 +1,5 @@
 # Guthrat Immobilien
-A website for a real estate agent (in German). All of the `HTML` elements are created dynamically with `Javascript`. JS is separated into files and bundled up with `webpack` before deployment.
+A website for a real estate agent (in German). All of the `HTML` elements are created dynamically with `Javascript`. JS is separated into files and bundled up with `webpack` before deployment. 
 
 ## Project/Learning Goals
 - create a website for a real estate agent, that is both minimalistic/easy to navigate + modern but still looks conservative, professional and sets up the real estate agent as someone who you can rely on. 
@@ -7,6 +7,7 @@ A website for a real estate agent (in German). All of the `HTML` elements are cr
 - improve your `DOM` manipulation skills by leaving the `HTML` files as empty as possible and creating all of the content dynamically with `Javascript`
 - make the design responsive and intuitive, look into design layouts
 - learn to define a minimum viable product and stick with it (avoid feature creep)
+- this project is mostly done to learn vanilla css and js file organization and modules, even though such an approach isn't optimal in "real world", since it'd impede the SEO
 
 ## MVP specification (Minimum Viable Product)
 1. Top nav bar with contact info and maybe a logo
