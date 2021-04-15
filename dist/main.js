@@ -16,7 +16,17 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_moduleTest__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/moduleTest */ \"./src/modules/moduleTest.js\");\n\n\n// this file will load up the initial page, \n// and will have the onclick listeners for the \n// \"Kontakt\" \"Verkauf\" \"Kauf\" buttons, which then\n// will call the modules with the same names\n\nfunction component() {\n    const element = document.createElement('div');\n  \n    element.innerHTML = (0,_modules_moduleTest__WEBPACK_IMPORTED_MODULE_0__.default)(\"Lewitt\");\n  \n    return element;\n  }\n  \n  document.body.appendChild(component());\n\n\n//# sourceURL=webpack://guthrat-immobilien/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_moduleTest__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/moduleTest */ \"./src/modules/moduleTest.js\");\n/* harmony import */ var _modules_landing__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/landing */ \"./src/modules/landing.js\");\n\n// 📁 main.js\n\n(0,_modules_landing__WEBPACK_IMPORTED_MODULE_1__.loadLandingPage)();\n\n// this file will load up the initial page, \n// and will have the onclick listeners for the \n// \"Kontakt\" \"Verkauf\" \"Kauf\" buttons, which then\n// will call the modules with the same names\n\nfunction component() {\n    const element = document.createElement('div');\n  \n    element.innerHTML = (0,_modules_moduleTest__WEBPACK_IMPORTED_MODULE_0__.default)(\"Lewitt\");\n  \n    return element;\n  }\n  \n  document.body.appendChild(component());\n\n\n//# sourceURL=webpack://guthrat-immobilien/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/landing.js":
+/*!********************************!*\
+  !*** ./src/modules/landing.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"loadLandingPage\": () => (/* binding */ loadLandingPage)\n/* harmony export */ });\n// creates landing page in the index html\nfunction loadLandingPage() {\n  alert(\"sup, viewer\");\n  console.log(\"supposedly it worked\");\n}\n\n//# sourceURL=webpack://guthrat-immobilien/./src/modules/landing.js?");
 
 /***/ }),
 

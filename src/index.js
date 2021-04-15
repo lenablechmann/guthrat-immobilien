@@ -1,4 +1,7 @@
 import moduleTest from "./modules/moduleTest"
+// 📁 main.js
+import {loadLandingPage} from './modules/landing';
+loadLandingPage();
 
 // this file will load up the initial page, 
 // and will have the onclick listeners for the 
