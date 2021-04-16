@@ -1,12 +1,11 @@
 import moduleTest from "./modules/moduleTest"
-// 📁 main.js
 import {loadLandingPage} from './modules/landing';
 loadLandingPage();
 
-// this file will load up the initial page, 
+// this file will load up the initial page,  via exported function. 
 // and will have the onclick listeners for the 
 // "Kontakt" "Verkauf" "Kauf" buttons, which then
-// will call the modules with the same names
+// will call the functions from the modules with the same names
 
 function component() {
     const element = document.createElement('div');
