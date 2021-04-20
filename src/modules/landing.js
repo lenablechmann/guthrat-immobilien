@@ -1,60 +1,26 @@
 // creates landing page in the index html
 export function loadLandingPage() {
-  const TopNavEl = {
-    tag: "nav",
-    class: "top-nav",
-    children: [
-      {
-        tag: "div",
-        class: "top-nav--upper-info",
-        text: "",
-        children: [
-          {
-            tag: "div",
-            class: "upper-info--sale-pitch",
-            text: "IHR IMMOBILIENMAKLER IN KÖLN",
-            children: [],
-          },
-          {
-            tag: "div",
-            class: "upper-info--tel",
-            text: "Tel.: 0221-444-5566",
-            children: [],
-          },
-          {
-            tag: "div",
-            class: "upper-info--mail",
-            text: "E-Mail: guthrat@immobilien.de",
-            children: [],
-          },
-        ],
-      },
-      { tag: "ul", class: "top-nav--menu", text: "", children: [] },
-    ],
-  };
-  
+  class elementHTML {
+    constructor(tag,className, innerHTML) {
+        let element = document.createElement(tag);
+        element.className = className;
+        element.innerHTML = innerHTML;
 
-  function iterateThroughObject (object) {
-    Object.keys(object).forEach(function (key) {
-      if ( Array.isArray(object[key]) && object[key].length) {
-        console.log(object[key]);
-          return iterateThroughObject(object[key]);
-      }
-      else {
-        console.log(object[key]);
-      }
-    });
-  }
+        return element;
+    }
+}
+let innerHTML = "testing this thang"
+const testing = new elementHTML('div', 'section-header', innerHTML);
+document.body.appendChild(testing)
 
-  iterateThroughObject(TopNavEl);
-  /*
-  const topNav = document.createElement('nav');
-  topNav.classList.add('top-nav');
-  document.body.appendChild(topNav);
+  // function topNav () {
+  //   const topNav = document.createElement('nav');
+  //   topNav.classList.add('top-nav');
+  //   document.body.appendChild(topNav);
 
-  const topNavInfo = document.createElement('div');
-  topNavInfo.classList.add('top-nav--upper-info');
-  document.topNav.appendChild(topNavInfo);
+  //   const topNavInfo = document.createElement('div');
+  //   topNavInfo.classList.add('top-nav--upper-info');
+  //   document.topNav.appendChild(topNavInfo);
+  // }
 
-  */
 }
