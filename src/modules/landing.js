@@ -8,7 +8,6 @@ export function loadLandingPage() {
         if (innerHTML){
           element.innerHTML = innerHTML;
         }
-
         return element;
     }
 }
@@ -30,6 +29,134 @@ export function loadLandingPage() {
 
   const infoMail = new HTMLelement ('div', 'upper-info--mail', 'E-Mail: guthrat@immobilien.de');
   topNavUpper.appendChild(infoMail);
+
+  const innerHTMLmenu = `
+            <li class="menu--logo">
+                <a href="" class="nav-link">GR</a> 
+            </li>
+            <li class="menu--kaufen">
+                <a href="" class="nav-link">Immobilienkauf</a> 
+            </li>
+            <li class="menu--verkaufen">
+                <a href="" class="nav-link">Verkauf</a> 
+            </li>
+            <li class="menu--kontakt">
+                <a href="" class="nav-link">Kontakt</a> 
+            </li>
+            `
+  const topNavMenu = new HTMLelement ('ul', 'top-nav--menu', innerHTMLmenu);
+  topNav.appendChild(topNavMenu);
 })();
 
+(function createLandingPicture(){
+  const innerHTMLpicture = `
+        <picture>
+        <source
+          srcset="../images/mobileLandingHouse640.jpeg"
+          type="image/jpg"
+          media="all and (max-width:600px)"
+        />
+        <source
+          srcset="../images/wideLandingHouse1366.jpeg"
+          type="image/jpg"
+          media="all and (min-width:601px) and (max-width:1200px)"
+        />
+        <source
+          srcset="../images/wideLandingHouse.jpeg"
+          type="image/jpg"
+          media="all and (min-width:1201px)"
+        />
+        <!-- default image -->
+        <img class="landing-img" src="../images/wideLandingHouse1366.jpeg" alt="idyllic house image" />
+      </picture>
+            `
+  const landingPicture = new HTMLelement ('div', 'header-picture', innerHTMLpicture);
+  document.body.appendChild(landingPicture);
+
+})();
+
+(function createAboutSection(){
+  const innerHTMLabout = `
+        <div class="section-header">Mit Guthrat Immobilien sicher in die Zukunft</div>
+        <section class="about--container">
+            <article class="about--container-copywriting">
+                <p class ="copywriting--text">Schon seit über 10 Jahren ist Guthrat der Immobilienmakler des Vertrauens in Raum Köln.
+                Verkauf/Ankauf der Immobilien nimmt viel Zeit und Kenntnisse in Anspruch und kann schnell zu einer heiklen
+                und stressigen Angelegenheit werden. </p>
+                <p class ="copywriting--text">Gutrath, der Immobilienmakler der Vertrauens in Raum Köln, nimmt den Stress und Probleme aus dieser
+                Gleichung. Unsere jahrelange Erfahrung im Immobilienmarkt wird auch sie vor Problemen
+                und Risiken schützen. </p>
+            </article>
+            <img src="/images/agentPhoto.jpeg" alt="Photo of the real estate agent" class="about--container-agent-photo">
+        </section>
+            `
+  const aboutSection = new HTMLelement ('section', 'about', innerHTMLabout);
+  document.body.appendChild(aboutSection);
+})();
+
+(function createShowcaseReel(){
+  const innerHTMLreel = `
+        <div class="section-header">Immobilienangebote</div>
+        <div class="showcase-reel--gallery">
+            <figure class="gallery--frame">
+                <img src="/images/house1.jpeg" alt="red yellow house" class="gallery--photo">
+            </figure>
+            <figure class="gallery--frame">
+                <img src="/images/house2.jpeg" alt="brick house" class="gallery--photo">
+            </figure>
+            <figure class="gallery--frame">
+                <img src="/images/house3.jpeg" alt="colorful city house" class="gallery--photo">
+            </figure>
+            <figure class="gallery--frame">
+                <img src="/images/house4.jpeg" alt="modern house" class="gallery--photo">
+            </figure>
+            <figure class="gallery--frame">
+                <img src="/images/house5.jpeg" alt="white kitchen" class="gallery--photo">
+            </figure>
+            <figure class="gallery--frame">
+                <img src="/images/house6.jpeg" alt="antique roof" class="gallery--photo">
+            </figure>
+            <figure class="gallery--frame">
+                <img src="/images/house7.jpeg" alt="grey blue house" class="gallery--photo">
+            </figure>
+            <figure class="gallery--frame">
+                <img src="/images/house8.jpeg" alt="lush room" class="gallery--photo">
+            </figure>
+        </div>
+            `
+  const aboutSection = new HTMLelement ('section', 'showcase-reel', innerHTMLreel);
+  document.body.appendChild(aboutSection);
+})();
+(function createBottomNav(){
+  const innerHTMLbtmNav = `
+        <div class="bottom-nav--name">Guthrat Immobilien</div>
+        <ul class="bottom-nav--address">
+            <li class="address--street">Maasdorf Straße 231</li>
+            <li class="address--city">50967 Köln</li>
+            <li class="address--country">Deutschland</li>
+        </ul>
+
+        <ul class="bottom-nav--info">
+            <li class="lower-info--tel">Tel.: 0221-444-5566</li>
+            <li class="lower-info--mail">E-Mail: guthrat@immobilien.de</li>
+        </ul>
+
+        <ul class="bottom-nav--link-list">
+            <li class="link-list">
+                <a href="" class="nav-link">Impressum</a> 
+            </li>
+            <li class="link-list">
+                <a href="" class="nav-link">AGB</a> 
+            </li>
+            <li class="link-list">
+                <a href="" class="nav-link">Datenschutz</a> 
+            </li>
+            <li class="link-list">
+                <a href="" class="nav-link">Cookies</a> 
+            </li>
+        </ul>
+            `
+  const bottomNav = new HTMLelement ('section', 'bottom-nav', innerHTMLbtmNav);
+  document.body.appendChild(bottomNav);
+})();
 }
