@@ -5,6 +5,8 @@
 
 import {loadLandingPage} from './modules/landing';
 import {loadImmobilienKaufPage} from './modules/immobilienkauf';
+import {loadVerkaufPage} from './modules/verkauf';
+import {loadKontaktPage} from './modules/kontakt';
 loadLandingPage();
 
 const landingLogo = document.getElementById('landingPage');
@@ -19,12 +21,12 @@ immobilienKauf.addEventListener('click', function(e) {
 
 const verkauf = document.getElementById('verkaufPage');
 verkauf.addEventListener('click', function(e) {
-  console.log("you've clicked on the verkauf");
+  loadVerkaufPage();
   e.preventDefault();
 });
 
 const kontakt = document.getElementById('kontaktPage');
 kontakt.addEventListener('click', function(e) {
-  console.log("you've clicked on the kontakt");
+  loadKontaktPage();
   e.preventDefault();
 });
