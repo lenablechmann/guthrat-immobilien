@@ -1,11 +1,7 @@
 export function removeChangingBlocks() {
-      const landingPicture = document.getElementById('landingPicture')
-            landingPicture.innerHTML = '';
-            landingPicture.remove();
-      const aboutSection = document.getElementById('aboutSection')
-            aboutSection.innerHTML = '';
-            aboutSection.remove();
-      const showcaseReel = document.getElementById('showcaseReel')
-            showcaseReel.innerHTML = '';
-            showcaseReel.remove();
+      const midElements = document.querySelectorAll('.midblock')
+            for (let counter = 0; counter < midElements.length; counter++){
+                  midElements[counter].innerHTML ='';
+                  midElements[counter].remove();
+            }
 }

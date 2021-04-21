@@ -71,7 +71,7 @@ export function loadLandingPage() {
       </picture>
             `
   const landingPicture = new HTMLelement ('div', 'header-picture', innerHTMLpicture);
-  landingPicture.id = "landingPicture";
+  landingPicture.classList.add("midblock");
   document.body.appendChild(landingPicture);
 
 })();
@@ -92,7 +92,7 @@ export function loadLandingPage() {
         </section>
             `
   const aboutSection = new HTMLelement ('section', 'about', innerHTMLabout);
-  aboutSection.id = "aboutSection"
+  aboutSection.classList.add("midblock");
   document.body.appendChild(aboutSection);
 })();
 
@@ -127,7 +127,7 @@ export function loadLandingPage() {
         </div>
             `
   const showcaseReel = new HTMLelement ('section', 'showcase-reel', innerHTMLreel);
-  showcaseReel.id = "showcaseReel";
+  showcaseReel.classList.add("midblock");
   document.body.appendChild(showcaseReel);
 })();
 (function createBottomNav(){
