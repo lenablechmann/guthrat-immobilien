@@ -35,13 +35,13 @@ export function loadLandingPage() {
                 <a href="" class="nav-link" id="landingPage">GR</a> 
             </li>
             <li class="menu--kaufen">
-                <a href="" class="nav-link" id="ImmobilienKaufPage">Immobilienkauf</a> 
+                <a href="" class="nav-link" id="immobilienKaufPage">Immobilienkauf</a> 
             </li>
             <li class="menu--verkaufen">
-                <a href="" class="nav-link" id="VerkaufPage">Verkauf</a> 
+                <a href="" class="nav-link" id="verkaufPage">Verkauf</a> 
             </li>
             <li class="menu--kontakt">
-                <a href="" class="nav-link" id="KontaktPage">Kontakt</a> 
+                <a href="" class="nav-link" id="kontaktPage">Kontakt</a> 
             </li>
             `
   const topNavMenu = new HTMLelement ('ul', 'top-nav--menu', innerHTMLmenu);
