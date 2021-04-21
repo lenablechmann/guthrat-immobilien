@@ -160,7 +160,7 @@ export function loadLandingPage() {
         </ul>
             `
   const bottomNav = new HTMLelement ('section', 'bottom-nav', innerHTMLbtmNav);
-  bottomNav.id = "bottomNav";
+  bottomNav.classList.add("midblock");
   document.body.appendChild(bottomNav);
 })();
 }

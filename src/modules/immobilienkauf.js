@@ -1,24 +1,23 @@
 // modifies the middle section of the landing page to display
 // the real estate gallery
-import {removeChangingBlocks} from './removeMidBlock';
+import { removeChangingBlocks } from "./removeMidBlock";
 
 export function loadImmobilienKaufPage() {
-
   class HTMLelement {
-    constructor(tag,className, innerHTML) {
-        let element = document.createElement(tag);
-        element.className = className;
-        if (innerHTML){
-          element.innerHTML = innerHTML;
-        }
-        return element;
-    };
-   }
+    constructor(tag, className, innerHTML) {
+      let element = document.createElement(tag);
+      element.className = className;
+      if (innerHTML) {
+        element.innerHTML = innerHTML;
+      }
+      return element;
+    }
+  }
 
   removeChangingBlocks();
 
-    (function createImmobilienkaufSection(){
-    const innerHTML= `
+  (function createImmobilienkaufSection() {
+    const innerHTML = `
         <div class="immobilienkauf-card">
             <img src="/images/house1.jpeg" alt="red yellow house" class="immobilienkauf-card--img">
             <div class="immobilienkauf-card--title">
@@ -89,10 +88,47 @@ export function loadImmobilienKaufPage() {
                 </section>
             </div>
         </div>
-                `
-    const immobilienkauf = new HTMLelement ('section', 'immobilienkauf', innerHTML);
+                `;
+    const immobilienkauf = new HTMLelement(
+      "section",
+      "immobilienkauf",
+      innerHTML
+    );
     immobilienkauf.classList.add("midblock");
     document.body.appendChild(immobilienkauf);
-    })();
+  })();
 
+  (function createBottomNav() {
+    const innerHTMLbtmNav = `
+        <div class="bottom-nav--name">Guthrat Immobilien</div>
+        <ul class="bottom-nav--address">
+            <li class="address--street">Maasdorf Straße 231</li>
+            <li class="address--city">50967 Köln</li>
+            <li class="address--country">Deutschland</li>
+        </ul>
+
+        <ul class="bottom-nav--info">
+            <li class="lower-info--tel">Tel.: 0221-444-5566</li>
+            <li class="lower-info--mail">E-Mail: guthrat@immobilien.de</li>
+        </ul>
+
+        <ul class="bottom-nav--link-list">
+            <li class="link-list">
+                <a href="" class="nav-link">Impressum</a> 
+            </li>
+            <li class="link-list">
+                <a href="" class="nav-link">AGB</a> 
+            </li>
+            <li class="link-list">
+                <a href="" class="nav-link">Datenschutz</a> 
+            </li>
+            <li class="link-list">
+                <a href="" class="nav-link">Cookies</a> 
+            </li>
+        </ul>
+            `;
+    const bottomNav = new HTMLelement("section", "bottom-nav", innerHTMLbtmNav);
+    bottomNav.classList.add("midblock");
+    document.body.appendChild(bottomNav);
+  })();
 }
