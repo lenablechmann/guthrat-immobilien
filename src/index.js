@@ -1,4 +1,3 @@
-import moduleTest from "./modules/moduleTest"
 import {loadLandingPage} from './modules/landing';
 loadLandingPage();
 

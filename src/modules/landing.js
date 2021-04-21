@@ -32,16 +32,16 @@ export function loadLandingPage() {
 
   const innerHTMLmenu = `
             <li class="menu--logo">
-                <a href="" class="nav-link">GR</a> 
+                <a href="" class="nav-link" id="landingPage">GR</a> 
             </li>
             <li class="menu--kaufen">
-                <a href="" class="nav-link">Immobilienkauf</a> 
+                <a href="" class="nav-link" id="ImmobilienKaufPage">Immobilienkauf</a> 
             </li>
             <li class="menu--verkaufen">
-                <a href="" class="nav-link">Verkauf</a> 
+                <a href="" class="nav-link" id="VerkaufPage">Verkauf</a> 
             </li>
             <li class="menu--kontakt">
-                <a href="" class="nav-link">Kontakt</a> 
+                <a href="" class="nav-link" id="KontaktPage">Kontakt</a> 
             </li>
             `
   const topNavMenu = new HTMLelement ('ul', 'top-nav--menu', innerHTMLmenu);
