@@ -52,22 +52,22 @@ export function loadLandingPage() {
   const innerHTMLpicture = `
         <picture>
         <source
-          srcset="..images/mobileLandingHouse640.jpeg"
+          srcset="images/mobileLandingHouse640.jpeg"
           type="image/jpg"
           media="all and (max-width:600px)"
         />
         <source
-          srcset="..images/wideLandingHouse1366.jpeg"
+          srcset="images/wideLandingHouse1366.jpeg"
           type="image/jpg"
           media="all and (min-width:601px) and (max-width:1200px)"
         />
         <source
-          srcset="..images/wideLandingHouse.jpeg"
+          srcset="images/wideLandingHouse.jpeg"
           type="image/jpg"
           media="all and (min-width:1201px)"
         />
         <!-- default image -->
-        <img class="landing-img" src="..images/wideLandingHouse1366.jpeg" alt="idyllic house image" />
+        <img class="landing-img" src="images/wideLandingHouse1366.jpeg" alt="idyllic house image" />
       </picture>
             `
   const landingPicture = new HTMLelement ('div', 'header-picture', innerHTMLpicture);
