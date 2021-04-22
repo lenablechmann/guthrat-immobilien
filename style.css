@@ -188,6 +188,9 @@ body {
             width: 1px;
             height: 1px;
         }
+        .top-nav--menu * {
+            padding: 0em 0.25em;
+        }
         .landing-img {
             width: 100%;
         }
