@@ -52,22 +52,22 @@ export function loadLandingPage() {
   const innerHTMLpicture = `
         <picture>
         <source
-          srcset="../images/mobileLandingHouse640.jpeg"
+          srcset="..images/mobileLandingHouse640.jpeg"
           type="image/jpg"
           media="all and (max-width:600px)"
         />
         <source
-          srcset="../images/wideLandingHouse1366.jpeg"
+          srcset="..images/wideLandingHouse1366.jpeg"
           type="image/jpg"
           media="all and (min-width:601px) and (max-width:1200px)"
         />
         <source
-          srcset="../images/wideLandingHouse.jpeg"
+          srcset="..images/wideLandingHouse.jpeg"
           type="image/jpg"
           media="all and (min-width:1201px)"
         />
         <!-- default image -->
-        <img class="landing-img" src="../images/wideLandingHouse1366.jpeg" alt="idyllic house image" />
+        <img class="landing-img" src="..images/wideLandingHouse1366.jpeg" alt="idyllic house image" />
       </picture>
             `
   const landingPicture = new HTMLelement ('div', 'header-picture', innerHTMLpicture);
@@ -88,7 +88,7 @@ export function loadLandingPage() {
                 Gleichung. Unsere jahrelange Erfahrung im Immobilienmarkt wird auch sie vor Problemen
                 und Risiken schützen. </p>
             </article>
-            <img src="/images/agentPhoto.jpeg" alt="Photo of the real estate agent" class="about--container-agent-photo">
+            <img src="images/agentPhoto.jpeg" alt="Photo of the real estate agent" class="about--container-agent-photo">
         </section>
             `
   const aboutSection = new HTMLelement ('section', 'about', innerHTMLabout);
@@ -101,28 +101,28 @@ export function loadLandingPage() {
         <div class="section-header">Immobilienangebote</div>
         <div class="showcase-reel--gallery">
             <figure class="gallery--frame">
-                <img src="/images/house1.jpeg" alt="red yellow house" class="gallery--photo">
+                <img src="images/house1.jpeg" alt="red yellow house" class="gallery--photo">
             </figure>
             <figure class="gallery--frame">
-                <img src="/images/house2.jpeg" alt="brick house" class="gallery--photo">
+                <img src="images/house2.jpeg" alt="brick house" class="gallery--photo">
             </figure>
             <figure class="gallery--frame">
-                <img src="/images/house3.jpeg" alt="colorful city house" class="gallery--photo">
+                <img src="images/house3.jpeg" alt="colorful city house" class="gallery--photo">
             </figure>
             <figure class="gallery--frame">
-                <img src="/images/house4.jpeg" alt="modern house" class="gallery--photo">
+                <img src="images/house4.jpeg" alt="modern house" class="gallery--photo">
             </figure>
             <figure class="gallery--frame">
-                <img src="/images/house5.jpeg" alt="white kitchen" class="gallery--photo">
+                <img src="images/house5.jpeg" alt="white kitchen" class="gallery--photo">
             </figure>
             <figure class="gallery--frame">
-                <img src="/images/house6.jpeg" alt="antique roof" class="gallery--photo">
+                <img src="images/house6.jpeg" alt="antique roof" class="gallery--photo">
             </figure>
             <figure class="gallery--frame">
-                <img src="/images/house7.jpeg" alt="grey blue house" class="gallery--photo">
+                <img src="images/house7.jpeg" alt="grey blue house" class="gallery--photo">
             </figure>
             <figure class="gallery--frame">
-                <img src="/images/house8.jpeg" alt="lush room" class="gallery--photo">
+                <img src="images/house8.jpeg" alt="lush room" class="gallery--photo">
             </figure>
         </div>
             `

@@ -19,7 +19,7 @@ export function loadImmobilienKaufPage() {
   (function createImmobilienkaufSection() {
     const innerHTML = `
         <div class="immobilienkauf-card">
-            <img src="/images/house1.jpeg" alt="red yellow house" class="immobilienkauf-card--img">
+            <img src="images/house1.jpeg" alt="red yellow house" class="immobilienkauf-card--img">
             <div class="immobilienkauf-card--title">
                 <section class="immobilienkauf-card--form"><p>320qm Haus in Köln</p></section> 
                 </div>
@@ -42,7 +42,7 @@ export function loadImmobilienKaufPage() {
             </div>
         </div>
         <div class="immobilienkauf-card">
-            <img src="/images/house2.jpeg" alt="brick house" class="immobilienkauf-card--img">
+            <img src="images/house2.jpeg" alt="brick house" class="immobilienkauf-card--img">
             <div class="immobilienkauf-card--title">
                 <section class="immobilienkauf-card--form"><p>240qm Haus in Köln</p></section> 
                 </div>
@@ -67,7 +67,7 @@ export function loadImmobilienKaufPage() {
             </div>
         </div>
         <div class="immobilienkauf-card">
-            <img src="/images/house4.jpeg" alt="modern house" class="immobilienkauf-card--img">
+            <img src="images/house4.jpeg" alt="modern house" class="immobilienkauf-card--img">
             <div class="immobilienkauf-card--title">
                 <section class="immobilienkauf-card--form"><p>194qm Haus in Köln</p></section> 
                 </div>

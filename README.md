@@ -32,8 +32,8 @@ A website for a real estate agent (in German). All of the `HTML` elements are cr
 - [x] create a static prototype page with multiple html files but one css style file
 - [x] tweak the css until it matches the design as well as possible, if something isn't possible atm, admit defeat and try to incorporate an acceptable substitute + learn from experience
 - [x] create a dummy page + basic css layout and connect a few modules to each other (code infrastructure setup)
-- [ ] plan out/ pseudo code the modules
-- [ ] transfer all the html tags into the js modules/classes
+- [x] plan out/ pseudo code the modules
+- [x] transfer all the html tags into the js modules/classes
 
 ## Learning experiences
 - Wireframes are important for the user experience flow and give you a good high level overview over the project. What is necessary, and where you can cut the fat. You can determine, what is intuitive and where the user might have some troubles. They are pretty good if you want to avoid getting caught up in the details.
