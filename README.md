@@ -1,6 +1,7 @@
 # Guthrat Immobilien
 A website for a real estate agent (in German). All of the `HTML` elements are created dynamically with `Javascript`. JS is separated into files and bundled up with `webpack` before deployment. 
-
+The page can be [viewed live here *click*](https://lenablechmann.github.io/guthrat-immobilien/).
+![page preview](/images/previewPage.png)
 ## Project/Learning Goals
 - create a website for a real estate agent, that is both minimalistic/easy to navigate + modern but still looks conservative, professional and sets up the real estate agent as someone who you can rely on. 
 - use this project to learn `Javascript modules` and bundling them up with `webpack`
